@@ -39,7 +39,7 @@ Step 1: Log into the remote desktop using your virtual machine's public IP addre
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Open Wireshark and filter for ICMP traffic.
+Step 2: Open Wireshark and filter for ICMP traffic. This is so we can test the connectivity between two devices without seeing irrelevant traffic. 
 </p>
 <br />
 
