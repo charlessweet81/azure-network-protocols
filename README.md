@@ -9,7 +9,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Various Command-Line Tools
+- Various Command-Line Tools (via Powershell)
 - Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
 
@@ -20,10 +20,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Log into remote desktop 
+- Step 2: Open Wireshark and start packet capture
+- Step 3: Within Wireshark, filter for ICMP traffic only
+- Step 4: Ping the second terminal from Powershell
 
 <h2>Actions and Observations</h2>
 
