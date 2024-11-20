@@ -3,7 +3,7 @@
 </p>
 
 <h1>Observing ICMP traffic</h1>
-observing ICMP traffic helps troubleshoot intermittent connectivity issues. By deploying monitoring tools to analyze ICMP packets we can seeidentify where the breakdown occurs when users report slow or lost connections to services. 
+observing ICMP traffic helps troubleshoot intermittent connectivity issues. By deploying monitoring tools to analyze ICMP packets we can seeidentify where the breakdown occurs when users report slow or lost connections to services. <br/>
 
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
