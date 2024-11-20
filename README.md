@@ -24,8 +24,12 @@ In this tutorial, we will look at various network traffic to and from Azure Virt
 
 - Step 1: Log into remote desktop 
 - Step 2: Open Wireshark and start packet capture
-- Step 3: Within Wireshark, filter for ICMP traffic only
-- Step 4: Ping the second terminal from Powershell
+- Step 3: Ping the second VM from Powershell
+- Step 4: Observe ICMP traffic
+- Step 5: Observe SSH traffic
+- Step 6: Observe DHCP traffic
+- Step 7: Observe RDP traffic
+
 
 <h2>Actions and Observations</h2>
 
@@ -57,15 +61,14 @@ Step 3: Retrieve the private IP address of VM.
 <img src="https://i.imgur.com/nVyKkxZ.png" height="80%" width="80%" alt="Ping the Linux virtual machine using Powershell"/>
 </p>
 <p>
-Step 4: Ping the second VM from Powershell. Notice that there are 4 reply lines there.  
-
+Step 4: Ping the second VM from Powershell. 
 </p>
 
 <p>
-<img src="https://i.imgur.com/P3vSmtq.png" height="80%" width="80%" alt="Ping the Linux virtual machine using Powershell"/>
+<img src="https://i.imgur.com/nVyKkxZ.png" height="80%" width="80%" alt="Ping the Linux virtual machine using Powershell"/>
 </p>
 <p>
-You can see that the Linux VM is successfully receiving and sending traffic by Wireshark showing 4 request and 4 reply lines, respectively. 
+Step 5: Filter ICMP traffic only in Wireshark by adding 'ICMP' into the filter section. 
 
 </p>
 
