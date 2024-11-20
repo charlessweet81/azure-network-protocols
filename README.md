@@ -31,7 +31,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/7E93uXW.png" height="80%" width="80%" alt="Log into Remote Desktop"/>
 </p>
 <p>
-Step 1: Log into the remote desktop using your virtual machine's public IP address and created username and password. 
+Step 1: We're going to log into a remote desktop using the virtual machine's public IP address and created username and password. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Filter for ICMP"/>
+</p>
+<p>
+Step 2: Open Wireshark and type 'ICMP' into the filter - this lets us test the connectivity between the Windows VM and a second VM (Linux) device without seeing irrelevant traffic. 
 </p>
 <br />
 
@@ -39,14 +47,15 @@ Step 1: Log into the remote desktop using your virtual machine's public IP addre
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Open Wireshark and filter for ICMP traffic. This is so we can test the connectivity between two devices without seeing irrelevant traffic. 
+Step 3: Retrieve the private IP address of VM. 
+
 </p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 4: Open Powershell 
+
 </p>
 <br />
