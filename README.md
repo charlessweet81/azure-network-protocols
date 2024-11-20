@@ -102,7 +102,7 @@ You should now see all of the capture information.
 
 <h4>DNS Network Traffic</h4>
 <p>
-1. Filter for DNS traffic only using either ‘udp’ or ‘udp.port == 53’ in the search bar<br> 
+1. Filter for DNS traffic only using either ‘udp’ or ‘udp.port == 53’ in the Wireshark search bar<br> 
 2. From your Windows 10 VM within a command line, use nslookup to see what human-readable URL addresses resolve to
 </p>
 <p>
@@ -111,11 +111,11 @@ You should now see all of the capture information.
 
 <h4>RDP Network Traffic</h4>
 <p>
-1. Filter for DNS traffic only using either ‘udp’ or ‘udp.port == 53’ in the search bar<br> 
-2. From your Windows 10 VM within a command line, use nslookup to see what human-readable URL addresses resolve to
+1. Filter for RDP traffic only either using 'rdp' or 'tcp.port == 3389' in Wireshark search bar<br> 
+
 </p>
 <p>
-<img src="https://i.imgur.com/R8Kzv2i.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/YhSz1UQ.png" height="80%" width="80%" alt=""/>
 </p>
 
 
