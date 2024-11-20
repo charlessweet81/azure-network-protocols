@@ -63,8 +63,8 @@ In this tutorial, we will look at SSH network traffic to and from Azure Virtual 
 <img src="https://i.imgur.com/zYyRbDz.png" height="80%" width="80%" alt=""/>
 </p>
 
-1. Type 'ssh' into Wireshark's filter.
-2. Type commands (username, pwd, etc) into the linux connection and observe SSH traffic in WireShark
+1. Input 'ssh' into Wireshark's filter.
+2. Input commands (username, pwd, etc) into the linux connection and observe SSH traffic in WireShark
 
 For example: 
 - 'id' generates the username we logged in with
