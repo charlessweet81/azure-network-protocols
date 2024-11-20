@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Observing Various Traffic Types Using Wireshark & Powershell</h1>
+<h1>Monitoring Network Traffic Using Wireshark & Powershell</h1>
 
 In this tutorial, we will look at SSH network traffic to and from Azure Virtual Machines with Wireshark. <br />
 
