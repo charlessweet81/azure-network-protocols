@@ -52,10 +52,18 @@ Step 3: Retrieve the private IP address of VM.
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nVyKkxZ.png" height="80%" width="80%" alt="Ping the Linux virtual machine using Powershell"/>
 </p>
 <p>
-Step 4: Open Powershell 
+Step 4: Ping the second VM from Powershell. Notice that there are 4 reply lines there.  
+
+</p>
+
+<p>
+<img src="https://i.imgur.com/P3vSmtq.png" height="80%" width="80%" alt="Ping the Linux virtual machine using Powershell"/>
+</p>
+<p>
+You can see that the Linux VM is receiving and sending traffic by Wireshark showing 4 request and 4 reply lines, respectively. 
 
 </p>
 <br />
