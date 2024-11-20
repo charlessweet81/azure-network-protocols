@@ -44,7 +44,7 @@ Step 2: Open Wireshark and type 'ICMP' into the filter - this lets us test the c
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5IRiRtj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 3: Retrieve the private IP address of VM. 
