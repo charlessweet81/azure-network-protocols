@@ -36,7 +36,7 @@ Step 1: We're going to log into a remote desktop using the virtual machine's pub
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Filter for ICMP"/>
+<img src="https://i.imgur.com/dlnWxf3.png" height="80%" width="80%" alt="Filter for ICMP"/>
 </p>
 <p>
 Step 2: Open Wireshark and type 'ICMP' into the filter - this lets us test the connectivity between the Windows VM and a second VM (Linux) device without seeing irrelevant traffic. 
