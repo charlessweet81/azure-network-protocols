@@ -63,7 +63,7 @@ Step 4: Ping the second VM from Powershell. Notice that there are 4 reply lines 
 <img src="https://i.imgur.com/P3vSmtq.png" height="80%" width="80%" alt="Ping the Linux virtual machine using Powershell"/>
 </p>
 <p>
-You can see that the Linux VM is receiving and sending traffic by Wireshark showing 4 request and 4 reply lines, respectively. 
+You can see that the Linux VM is successfully receiving and sending traffic by Wireshark showing 4 request and 4 reply lines, respectively. 
 
 </p>
 <br />
